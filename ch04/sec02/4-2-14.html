@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let num = 5;
+      for (let i = 0; i < num; i++) {
+        for (let j = 0; j < num + i; j++) {
+          if (i + j >= num - 1) {
+            document.write("*");
+          } else {
+            document.write("\u00a0");
+          }
+        }
+        document.write("<br>");
+      }
+    </script>
+  </body>
+</html>
