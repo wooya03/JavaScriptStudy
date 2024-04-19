@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      const date = new Date();
+      const hour = date.getHours();
+
+      switch (true) {
+        case hour < 11:
+          document.write("아침시간.");
+          break;
+        case hour < 15:
+          document.write("점심시간.");
+          break;
+        default:
+          document.write("저녁시간.");
+          break;
+      }
+    </script>
+  </body>
+</html>
