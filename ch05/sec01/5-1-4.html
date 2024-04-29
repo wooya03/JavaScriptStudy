@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function isLeapYear(year) {
+        return (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+      }
+      document.write(`${isLeapYear(2020)} <br/>`);
+      document.write(`${isLeapYear(2010)} <br/>`);
+      document.write(`${isLeapYear(2000)} <br/>`);
+      document.write(`${isLeapYear(1900)}`);
+    </script>
+  </body>
+</html>
